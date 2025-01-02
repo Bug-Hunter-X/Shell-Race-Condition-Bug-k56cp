@@ -1,0 +1,1 @@
+This repository contains a simple shell script demonstrating a race condition bug and its solution. The `bug.sh` script attempts to read a file before it's fully written, leading to an incomplete or empty output. The `bugSolution.sh` script addresses this race condition using process synchronization mechanisms.
